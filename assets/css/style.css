@@ -1,0 +1,19 @@
+button, div, form, input {
+      margin: 10px;
+   	}
+.container{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+}
+
+#buttons-view{
+	align-content: center;
+	background-color: skyblue;
+}
+
+#funny-form{
+	text-align: right;
+}
