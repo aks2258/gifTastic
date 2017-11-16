@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Funny Stuff</title>
+  <!--Links css file to html file-->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
@@ -11,17 +12,20 @@
 
   <div class="container">
     <h1>GifTastic</h1>
-
+<!--Will diplay all buttons -->
     <div id="buttons-view"></div>
 
+<!--User input form -->
     <form id="funny-form">
       <label for="funny-input">Add a funny:</label>
       <input type="text" id="funny-input"><br>
       <input id="add-funny" type="submit" value="submit">
     </form>
 
+<!--Gifs will be displayed in this div -->
     <div id="gifs-view"></div>
 
+<!--Utilizes jquery and links the javascript file to html page-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
   </div>
